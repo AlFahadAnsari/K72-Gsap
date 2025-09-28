@@ -1,15 +1,19 @@
 import Agency from './Pages/Agency'
 import Home from './Pages/Home'
-import { Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/agency' element={<Agency />} />
-      </Routes>
-    </div>
+    <>
+      {/* <div className='flex gap-10'><Link to={'/'} >home</Link>
+      <Link to={'/agency'} >Agency</Link></div> */}
+      <div>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/agency' element={<Agency />} />
+        </Routes>
+      </div>
+    </>
   )
 }
 

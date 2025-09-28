@@ -5,7 +5,7 @@ import Video from '../Components/Home/Video'
 
 const Home = () => {
     return (
-        <div  className='text-white'>
+        <div className='text-white'>
             <div className='h-screen w-screen fixed '>
                 <Video />
             </div>
@@ -13,7 +13,6 @@ const Home = () => {
             <div className='h-screen w-screen relative flex flex-col justify-between pb-4'>
                 <UpperText />
                 <BottomText />
-
             </div>
 
         </div>
